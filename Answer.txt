@@ -1,5 +1,2 @@
-                            Errors
-Error	1	error C2248: 'basic::first_name' : cannot access private member declared in class 'basic'	c:\users\temp.domain\documents\visual studio 2012\projects\lab 11\lab 11\student_imp.cpp	36
-Error	2	error C2248: 'basic::last_name' : cannot access private member declared in class 'basic'	c:\users\temp.domain\documents\visual studio 2012\projects\lab 11\lab 11\student_imp.cpp	36
-why did you get this error ???
-we are getting this errror because both the names are not accessible as they are private part of ther base class which are hidden from the derived class so we cannot excess them
+  
+We will get no error after changing to private and protected the inheritance as they ar not accessing directly any hidden members
